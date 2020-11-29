@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/jjiang316/jjiang316.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jjiang316/jjiang316.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+    <head>
+        <title>Jerry Jiang's Website</title>
+        <link rel="stylesheet" type="text/css" href="site.css"/>
+    </head>
+    <body>
+        <div id="home" class="topmenu">
+            <a class="currentpage" href="homepage.html">Home</a>
+            <a class="page" href="CSResume.pdf">Resume</a>
+            <a class="page" href="bio.html">Bio</a>
+        </div>
+        <div class="frontpage">
+            <h1 class="fronttext">Hi, I'm Jerry Jiang</h1>
+        </div>
+        <div class="projectlink">
+            <a href="#projects"><i class="arrow"></i></a>
+        </div>
+        <div id="projects" class="projectpage">
+            <h1>Projects</h1>
+            <div class="leftproject">
+                <h1>My Website</h1>
+                <a href="project.html" class="projectimage"><img src="Screenshot (48).png"
+                    alt="Click on this to read about my website"></a>
+                <p class="projectsdescription">Don't really have complete projects. 
+                    Just gonnna put the website for now. Click on the pic for more info.</p>
+            </div>
+            <div class="rightproject">
+                <h1>Title of Project 2</h1>
+                <a href="project.html" class="projectimage"><img src="Screenshot (48).png" 
+                    alt="Click on this image to get a description of project 2"></a>
+                <p class="projectsdescription">Here is where a short description of 
+                    a second project would be.
+                </p>
+            </div>
+        </div>
+        <div class="projectlink"><a href="#home"><i class="uparrow"></i></a></div>
+    </body>
+</html>
